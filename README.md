@@ -1,9 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Template
-> A starter boilerplate for projects in webpack and linters configs  
+# Leaderboard
 
-## Built With
+
+
+
+# Live Demo
+
+
+# Built With
 
 - Html
 - CSS
@@ -12,15 +17,26 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy follow these steps:
 
-clone repo: `https://github.com/VTY1999/webpack.git`
+1. Clone the repo by typing on your terminal
 
-then `cd webpack`
+```
+git clone https://github.com/VTY1999/Leaderboard.git
+```
 
-## Install
+2. Access the repo with
 
-run `npm install` to install dependencies
+```
+cd Leaderboard
+```
+
+3. Code freely
+
+```
+code .
+```
+
 ## Author
 
 👤 **Verissimo Francis**

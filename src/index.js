@@ -5,7 +5,7 @@ const score = document.querySelector('#user-score');
 const scoreBoard = document.querySelector('#scores');
 const form = document.querySelector('.add-scores');
 const refreshBtn = document.querySelector('#btn');
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/E4fgdgzgDxgchhc/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/E4fgdgziugxgphhc/scores';
 
 const postData = () => {
   form.addEventListener('submit', (e) => {

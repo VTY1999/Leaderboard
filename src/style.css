@@ -38,7 +38,8 @@ body {
 
 #scores {
   border: 3px solid #000;
-  width: 100%;
+  width: 23%;
+  position: fixed;
 }
 
 li {

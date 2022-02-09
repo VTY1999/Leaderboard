@@ -3,7 +3,7 @@
 # Leaderboard
 This is a leaderboard website that displays scores submitted by different players. It also allows you to submit your score and retieve it from the API. All data is preserved by external Leaderboard API service.
 
-![screenshot](https://github.com/VTY1999/Leaderboard/blob/Leaderboard-final-touches/Image/Screenshot%20(33).png)
+![screenshot](https://github.com/VTY1999/Leaderboard/blob/dev/Image/Screenshot%20(80).png)
 
 
 # Live Demo

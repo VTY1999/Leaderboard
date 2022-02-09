@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
-
+This is a leaderboard website that displays scores submitted by different players. It also allows you to submit your score and retieve it from the API. All data is preserved by external Leaderboard API service.
 
 
 
@@ -36,7 +36,11 @@ cd Leaderboard
 ```
 code .
 ```
+### Install
 
+run `npm install` to install dependencies
+
+then run `npm start` to open the webpage on the browser
 ## Author
 
 👤 **Verissimo Francis**

@@ -1,3 +1,94 @@
 body {
   background-color: #fff;
 }
+
+.board-container {
+  display: flex;
+  margin-left: 20%;
+}
+
+.head {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 10%;
+}
+
+.refresh {
+  display: flex;
+  flex-direction: row;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  width: 120%;
+}
+
+#btn {
+  height: 30px;
+  background-color: #fff;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 9%;
+  margin-bottom: auto;
+  box-shadow: 4px 4px 1px #000;
+  margin-left: 9%;
+}
+
+#scores {
+  border: 3px solid #000;
+  width: 23%;
+  position: fixed;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+li:nth-child(even) {
+  background-color: #ddd;
+}
+
+.add-scores {
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h2 {
+  align-self: flex-start;
+}
+
+input {
+  margin-top: 3%;
+}
+
+input::placeholder {
+  font-family: cursive;
+  color: #000;
+  font-size: 13px;
+}
+
+.inputs {
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.submit {
+  background-color: #fff;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 4px 4px 1px #000;
+  margin-top: 1%;
+  align-items: flex-end;
+  display: flex;
+}

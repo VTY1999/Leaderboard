@@ -5,7 +5,7 @@ const score = document.querySelector('#user-score');
 const scoreBoard = document.querySelector('#scores');
 const form = document.querySelector('.add-scores');
 const refreshBtn = document.querySelector('#btn');
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/E4fgdgzgDxgchhc/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/E4fgdgziugxgphhc/scores';
 
 const postData = () => {
   form.addEventListener('submit', (e) => {
@@ -29,7 +29,7 @@ const fetchData = async () => {
   const data = await response.json();
   scoreBoard.innerHTML = '';
   data.result.forEach((e) => {
-    scoreBoard.innerHTML += `<p>${e.user}: ${e.score}</p>`;
+    scoreBoard.innerHTML += `<li>${e.user}: ${e.score}</li>`;
   });
 };
 

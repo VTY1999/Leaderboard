@@ -29,7 +29,7 @@ const fetchData = async () => {
   const data = await response.json();
   scoreBoard.innerHTML = '';
   data.result.forEach((e) => {
-    scoreBoard.innerHTML += `<p>${e.user}: ${e.score}</p>`;
+    scoreBoard.innerHTML += `<li>${e.user}: ${e.score}</li>`;
   });
 };
 
